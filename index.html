@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 id="title">Enter Details</h1>
+    <p id="description">Please fill out the form below with your details. All fields are required. For the "Choice of
+        Food" field, please select at least two options.</p>
+    <div>
+        <form id="survey-form" class="survey-form">
+            <div class="form-group">
+                <label for="first-name" id="name-label">First Name:</label>
+                <input type="text" id="first-name" required placeholder="Enter your first name">
+            </div>
+            <div class="form-group">
+                <label for="last-name" id="name-label">Last Name:</label>
+                <input type="text" id="last-name" required placeholder="Enter your last name">
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="username@gmail.com"><br><br>
+          </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" required placeholder="Enter your address"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" required placeholder="Enter your pincode">
+            </div>
+            <div class="form-group gender">
+                <label for="gender">Gender:</label>
+                <div class="radio-option" style="position: relative;left: 110px;">
+                <input type="radio" name="gender" value="Male" required> Male
+                <input type="radio" name="gender" value="Female" required> Female
+               </div>
+            </div>
+            <label for="food">Choice of Food (select at least 2):</label><br>
+            <div class="option" style="position: relative; left: 110px;">
+            <input type="checkbox" id="food1" name="food" value="burger">
+            <label for="food1">Burger</label><br>
+            <input type="checkbox" id="food2" name="food" value="pizza">
+            <label for="food2">Pizza</label><br>
+            <input type="checkbox" id="food3" name="food" value="pasta">
+            <label for="food3">Pasta</label><br>
+            <input type="checkbox" id="food4" name="food" value="salad">
+            <label for="food4">Salad</label><br>
+            <input type="checkbox" id="food5" name="food" value="sandwich">
+            <label for="food5">Sandwich</label><br><br>
+            </div>
+            <div class="form-group">
+                <label for="state">State:</label>
+                <input type="text" id="state" required placeholder="Enter your state">
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <input type="text" id="country" required placeholder="Enter your country">
+            </div>
+            <div class="form-group">
+            <label for="comments">Additional Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+        </div>
+            <button type="submit" id="submit" class=" submit btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <h2>Table</h2>
+    <table id="myTable" class="table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Pincode</th>
+                <th>Gender</th>
+                <th>Food</th>
+                <th>State</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

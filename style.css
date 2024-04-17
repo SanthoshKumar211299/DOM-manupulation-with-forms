@@ -1,0 +1,44 @@
+.body{
+    font-size: medium;
+}
+#first-name{
+    position: relative;
+    left: 30px;
+}
+#last-name{
+    position: relative;
+    left: 30px;
+}
+#email{
+    position: relative;
+    left: 65px;
+}
+#address{
+    position: relative;
+    left: 48px;
+}
+#pincode{
+    position: relative;
+    left: 48px;
+}
+#male{
+    position: relative;
+    left: 100px;
+}
+#female{
+    position: relative;
+    left: 200px;
+}
+#state{
+    position: relative;
+    left: 60px;
+}
+#country{
+        position: relative;
+        left: 40px;
+}
+#comments{
+        position: relative;
+        left: 100px;
+    
+}
