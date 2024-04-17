@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const form = document.getElementById("survey-form");
+  const form = document.getElementById("form");
   const tableBody = document.querySelector("#myTable tbody");
 
   form.addEventListener("submit", function (e) {
