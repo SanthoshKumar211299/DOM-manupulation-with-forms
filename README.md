@@ -2,7 +2,9 @@ DOM Manipulation with Forms
 ---------------------------
 Problem statement:
 -----------------
-" <ul>". Create a form and table using HTML, CSS and DOM.
+. Create a form and table using HTML, CSS and DOM.
+
+
 . The form should contain the following field.
 . First name, last name, address, pincode, gender, choice of food(must choose at least 2 out
   of 5 options), state, country.
