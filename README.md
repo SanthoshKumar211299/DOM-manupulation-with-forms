@@ -6,6 +6,8 @@ Problem statement:
 
 
 . The form should contain the following field.
+
+
 . First name, last name, address, pincode, gender, choice of food(must choose at least 2 out
   of 5 options), state, country.
 . On submission of the form values, the values must be appended to the table.
